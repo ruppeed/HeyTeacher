@@ -18,7 +18,7 @@ if (!file_exists('PDFAnalyzer.php')) {
 }
 
 // Include the analyzer
-require_once 'PDFAnalyzer.php';
+require_once __DIR__ . '/PDFAnalyzer.php';
 
 // Check subject_specs directory
 $subjectSpecsDir = realpath(__DIR__ . '/../subject_specs');
