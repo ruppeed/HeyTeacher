@@ -1,0 +1,22 @@
+﻿# OS
+Thumbs.db
+.DS_Store
+
+# Editors/IDE
+.vscode/
+*.code-workspace
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# PHP / Composer
+vendor/
+
+# Node
+node_modules/
+
+# Env & local config
+.env
+.env.*
